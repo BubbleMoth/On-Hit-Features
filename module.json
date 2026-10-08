@@ -1,0 +1,46 @@
+{
+  "id": "on-hit-features-5e",
+  "title": "On-Hit Features (D&D 5e)",
+  "description": "Pick on-hit features (smites, Sneak Attack, maneuvers, weapon masteries, and more) right in the dnd5e damage roll dialog, with spell slot choice, follow-up cards, and an on-hit summary card. 2024 rules.",
+  "version": "0.2.0",
+
+  "authors": [
+    {
+      "name": "BubbleMoth"
+    }
+  ],
+
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.2",
+          "verified": "6.0.5"
+        }
+      }
+    ]
+  },
+
+  "esmodules": [
+    "scripts/on-hit-features.mjs"
+  ],
+
+  "styles": [
+    "styles/on-hit-features.css"
+  ],
+
+  "url": "https://github.com/BubbleMoth/on-hit-features",
+  "manifest": "https://github.com/BubbleMoth/on-hit-features/releases/latest/download/module.json",
+  "download": "https://github.com/BubbleMoth/on-hit-features/releases/download/v0.2.0/on-hit-features-0.0.0.zip",
+
+  "readme": "https://github.com/BubbleMoth/on-hit-features/blob/main/README.md",
+  "bugs": "https://github.com/BubbleMoth/on-hit-features/issues",
+  "license": "LICENSE"
+}
